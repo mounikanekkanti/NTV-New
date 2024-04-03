@@ -1,0 +1,80 @@
+.toggle {
+  align-items: center;
+  display: inline-flex;
+  gap: 5px;
+  position: relative;
+}
+
+.toggle .toggle-base {
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  height: 20px;
+  overflow: hidden;
+  padding: 2px;
+  position: relative;
+  width: 36px;
+}
+
+.toggle .button {
+  background-color: var(--alias-toggle-checkbox-cicle);
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px #1018280f, 0px 1px 3px #1018281a;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.toggle .text-wrapper-8 {
+  color: var(--alias-toggle-text-color);
+  font-family: var(--text-md-regular-font-family);
+  font-size: var(--text-md-regular-font-size);
+  font-style: var(--text-md-regular-font-style);
+  font-weight: var(--text-md-regular-font-weight);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.toggle .state-focus {
+  box-shadow: var(--focus-ring);
+}
+
+.toggle .active-true {
+  justify-content: flex-end;
+}
+
+.toggle .state-hover.active-true {
+  background-color: var(--alias-toggle-active-bg);
+}
+
+.toggle .active-true.state-focus {
+  background-color: var(--alias-toggle-active-bg);
+}
+
+.toggle .active-false.state-disable {
+  background-color: var(--alias-toggle-disable-bg);
+}
+
+.toggle .state-default.active-true {
+  background-color: var(--alias-toggle-active-bg);
+}
+
+.toggle .state-default.active-false {
+  background-color: var(--alias-toggle-default-bg);
+}
+
+.toggle .active-true.state-disable {
+  background-color: var(--alias-toggle-active-disable-bg);
+}
+
+.toggle .active-false.state-focus {
+  background-color: var(--alias-toggle-default-bg);
+}
+
+.toggle .state-hover.active-false {
+  background-color: var(--alias-toggle-default-bg);
+}

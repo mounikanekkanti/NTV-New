@@ -1,0 +1,1 @@
+export { HorizontalTabsItem } from "./HorizontalTabsItem";

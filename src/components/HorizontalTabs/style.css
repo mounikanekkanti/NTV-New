@@ -1,0 +1,26 @@
+.horizontal-tabs {
+  align-items: center;
+  background-color: var(--alias-horizontal-tab-horizontal-tabs-bg-color);
+  border: 1px solid;
+  border-color: var(--alias-horizontal-tab-horizontal-tabs-border-color);
+  border-radius: 8px;
+  display: flex;
+  gap: var(--alias-horizontal-tab-horizontal-tabs-gap);
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+  width: 668px;
+}
+
+.horizontal-tabs .horizontal-tabs-item-instance {
+  background-color: var(--alias-primary-3) !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}
+
+.horizontal-tabs .design-component-instance-node {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}

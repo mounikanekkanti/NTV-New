@@ -1,0 +1,58 @@
+.header {
+  align-items: center;
+  background-color: var(--alias-header-bg-color);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--alias-header-bg-border-color);
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  gap: var(--alias-header-main-gap);
+  height: var(--alias-header-height);
+  padding: 0px var(--alias-header-right-left-padding) 0px var(--alias-header-right-left-padding);
+  position: relative;
+  width: 1920px;
+}
+
+.header .icon-instance-node-3 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.header .logo-instance {
+  height: 36px !important;
+  position: relative !important;
+  width: 36px !important;
+}
+
+.header .text-wrapper-9 {
+  color: var(--alias-header-title-color);
+  flex: 1;
+  font-family: "Neue Haas Grotesk Display Std-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.header .user-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: var(--alias-header-user-div-gap);
+  justify-content: flex-end;
+  position: relative;
+}
+
+.header .text-wrapper-10 {
+  color: var(--alias-header-user-name-color);
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}

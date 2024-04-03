@@ -1,0 +1,37 @@
+.sub-nav {
+  align-items: flex-start;
+  background-color: var(--alias-sub-nav-sub-nav-bg);
+  display: flex;
+  flex-direction: column;
+  height: 1016px;
+  position: relative;
+  width: 196px;
+}
+
+.sub-nav .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 24px 24px 8px;
+  position: relative;
+  width: 100%;
+}
+
+.sub-nav .type-2 {
+  color: var(--alias-sub-nav-labe-color);
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.sub-nav .sub-nav-items-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}

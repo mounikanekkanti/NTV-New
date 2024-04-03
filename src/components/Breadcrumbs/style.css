@@ -1,0 +1,30 @@
+.breadcrumbs {
+  align-items: center;
+  display: inline-flex;
+  gap: var(--alias-breadcrumbs-breadcrumbs-gap);
+  position: relative;
+}
+
+.breadcrumbs .home-line {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.breadcrumbs .chevron-right {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.breadcrumbs .text-3 {
+  color: var(--alias-breadcrumbs-text-color);
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

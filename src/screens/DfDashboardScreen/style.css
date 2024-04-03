@@ -1,0 +1,382 @@
+.df-dashboard-screen {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.df-dashboard-screen .df-dashboard-2 {
+  background: var(--alias-dashboard-gradient);
+  background-color: rgba(255, 255, 255, 1);
+  height: 1080px;
+  position: relative;
+  width: 100%;
+}
+
+.df-dashboard-screen .frame-49 {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  left: 0;
+  position: absolute;
+  top: 64px;
+  width: 100%;
+}
+
+.df-dashboard-screen .frame-50 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 30px;
+  justify-content: center;
+  position: relative;
+}
+
+.df-dashboard-screen .basemap-control-bar-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  height: 72px;
+  padding: 32px 0px 0px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.df-dashboard-screen .global-filters-5 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.df-dashboard-screen .controls-9 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 16px;
+  position: relative;
+}
+
+.df-dashboard-screen .search-bar-8 {
+  align-self: stretch !important;
+  width: 452px !important;
+}
+
+.df-dashboard-screen .horizontal-tabs-8 {
+  width: 299px !important;
+}
+
+.df-dashboard-screen .dropdown-8 {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-top: -1px !important;
+}
+
+.df-dashboard-screen .fullscreen-toggle-2 {
+  align-items: center;
+  background-color: var(--alias-primary);
+  border-radius: 100px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 8px;
+  position: relative;
+}
+
+.df-dashboard-screen .icon-instance-node-11 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.df-dashboard-screen .frame-51 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 0px 0px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.df-dashboard-screen .regional-map-5 {
+  align-self: stretch;
+  background-image: url(../../../static/img/regional-map.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 8px;
+  height: 880px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.df-dashboard-screen .map-zoom-coordinates-8 {
+  background-color: var(--alias-BG-2) !important;
+  left: 646px !important;
+  position: absolute !important;
+  top: 817px !important;
+}
+
+.df-dashboard-screen .map-legend-4 {
+  align-items: flex-start;
+  background-color: var(--alias-legends-legends-bg);
+  border: 1px solid;
+  border-color: var(--alias-legends-border-box);
+  border-radius: 8px;
+  box-shadow: 4px 8px 12px #00000080;
+  display: inline-flex;
+  gap: 16px;
+  left: 1652px;
+  padding: 16px;
+  position: absolute;
+  top: 23px;
+}
+
+.df-dashboard-screen .sites-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.df-dashboard-screen .site-types-12 {
+  color: var(--ref-primary-blue300);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.df-dashboard-screen .macro-9 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 0px 0px 0px 1px;
+  position: relative;
+}
+
+.df-dashboard-screen .site-types-13 {
+  box-shadow: 0px 1px 2px #1018280f, 0px 1px 3px #1018281a;
+  height: 14px;
+  position: relative;
+  width: 14px;
+}
+
+.df-dashboard-screen .macro-10 {
+  background-color: var(--ref-primary-blue500);
+  border: 1px solid;
+  border-color: var(--ref-primary-blue400);
+  border-radius: 1px;
+  height: 12px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 12px;
+}
+
+.df-dashboard-screen .text-wrapper-60 {
+  color: var(--alias-legends-text);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.df-dashboard-screen .small-cell-5 {
+  background-color: var(--ref-primary-blue500);
+  border: 1px solid;
+  border-color: var(--ref-primary-blue400);
+  border-radius: 1px;
+  height: 10px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  transform: rotate(45deg);
+  width: 10px;
+}
+
+.df-dashboard-screen .med-cell-5 {
+  height: 14px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.df-dashboard-screen .union-5 {
+  height: 12px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 12px;
+}
+
+.df-dashboard-screen .site-types-14 {
+  box-shadow: 0px 1px 2px #1018280f, 0px 1px 3px #1018281a;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.df-dashboard-screen .ellipse-24 {
+  background-color: var(--ref-primary-blue500);
+  border: 1px solid;
+  border-color: var(--ref-primary-blue400);
+  border-radius: 6px;
+  height: 12px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 12px;
+}
+
+.df-dashboard-screen .tooltip-3 {
+  align-items: center;
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 298px;
+  position: absolute;
+  top: 225px;
+  width: 320px;
+}
+
+.df-dashboard-screen .content-3 {
+  align-items: flex-end;
+  align-self: stretch;
+  background-color: var(--alias-tooltip-bg-color);
+  border-radius: var(--alias-tooltip-border-radius);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--alias-tooltip-content-gap);
+  padding: var(--alias-tooltip-tooltip-top-and-bottum-padding);
+  position: relative;
+  width: 100%;
+}
+
+.df-dashboard-screen .icon-and-title-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: var(--alias-tooltip-content-gap);
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.df-dashboard-screen .text-18 {
+  color: var(--alias-tooltip-title-color);
+  flex: 1;
+  font-family: var(--text-xs-semibold-font-family);
+  font-size: var(--text-xs-semibold-font-size);
+  font-style: var(--text-xs-semibold-font-style);
+  font-weight: var(--text-xs-semibold-font-weight);
+  letter-spacing: var(--text-xs-semibold-letter-spacing);
+  line-height: var(--text-xs-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.df-dashboard-screen .p {
+  align-self: stretch;
+  color: var(--alias-tooltip-description-color);
+  font-family: var(--text-xs-medium-font-family);
+  font-size: var(--text-xs-medium-font-size);
+  font-style: var(--text-xs-medium-font-style);
+  font-weight: var(--text-xs-medium-font-weight);
+  letter-spacing: var(--text-xs-medium-letter-spacing);
+  line-height: var(--text-xs-medium-line-height);
+  position: relative;
+}
+
+.df-dashboard-screen .tooltip-4 {
+  height: 8.51px;
+  position: relative;
+  width: 16px;
+}
+
+.df-dashboard-screen .breadcrumbs-8 {
+  left: 24px !important;
+  position: absolute !important;
+  top: 26px !important;
+}
+
+.df-dashboard-screen .widget-group-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 23px;
+  position: absolute;
+  top: 440px;
+  width: 290px;
+}
+
+.df-dashboard-screen .design-component-instance-node-6 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.df-dashboard-screen .small-widget-donut-2 {
+  background-image: url(../../../static/img/background.svg) !important;
+  height: 60px !important;
+  left: -4px !important;
+  top: -4px !important;
+  width: 60px !important;
+}
+
+.df-dashboard-screen .toolbar-8 {
+  display: flex !important;
+  height: 1016px !important;
+  width: 72px !important;
+}
+
+.df-dashboard-screen .header-9 {
+  border-left-style: none !important;
+  border-right-style: none !important;
+  border-top-style: none !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 100%;
+}
+
+@media (min-width: 1340px) and (max-width: 1440px) {
+  .df-dashboard-drk-lg .geo-map-3
+  {
+    width: 848px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1340px) {
+  .df-dashboard-drk-lg .geo-map-3
+  {
+    width: 703px;
+  }
+}

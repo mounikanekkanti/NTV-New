@@ -1,0 +1,66 @@
+.filter-panel {
+  align-items: flex-end;
+  background-color: var(--alias-filter-panel-sub-nav-bg);
+  display: flex;
+  flex-direction: column;
+  height: 1526px;
+  position: relative;
+  width: 254px;
+}
+
+.filter-panel .type-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.filter-panel .type {
+  color: var(--alias-filter-panel-labe-color);
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.filter-panel .accordion-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.filter-panel .toggle-list-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  padding: 0px 16px 0px 54px !important;
+  width: 100% !important;
+}
+
+.filter-panel .utilization {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.filter-panel .utilization-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 0px 0px 0px 54px;
+  position: relative;
+  width: 100%;
+}

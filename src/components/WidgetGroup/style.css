@@ -1,0 +1,31 @@
+.widget-group {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 290px;
+}
+
+.widget-group .column-widget-instance {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.widget-group .column-widget-2 {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.widget-group .design-component-instance-node-2 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.widget-group .table-instance {
+  align-self: stretch !important;
+  width: unset !important;
+}

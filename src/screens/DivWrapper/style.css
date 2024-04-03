@@ -1,0 +1,341 @@
+.div-wrapper {
+  background-color: #202021;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-wrapper .application-screen-3 {
+  background-color: #202021;
+  height: 1092px;
+  position: relative;
+  width: 1920px;
+}
+
+.div-wrapper .overlap-4 {
+  height: 1028px;
+  left: 0;
+  position: absolute;
+  top: 64px;
+  width: 1920px;
+}
+
+.div-wrapper .regional-map-3 {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 30, 32, 0) 76.56%, rgba(32, 32, 33, 0.75) 100%);
+  background-image: url(../../../static/img/regional-map-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1016px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.div-wrapper .frame-16 {
+  align-items: flex-start;
+  display: flex;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.div-wrapper .frame-17 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 132px;
+  position: relative;
+}
+
+.div-wrapper .frame-18 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.div-wrapper .frame-19 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 132px;
+  position: relative;
+  width: 100%;
+}
+
+.div-wrapper .frame-20 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.div-wrapper .basemap-control-bar-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(30, 30, 32, 0.2) 100%);
+  display: flex;
+  height: 72px;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.div-wrapper .controls-4 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: 919px;
+}
+
+.div-wrapper .search-bar-3 {
+  align-self: stretch !important;
+  width: 452px !important;
+}
+
+.div-wrapper .horizontal-tabs-3 {
+  width: 299px !important;
+}
+
+.div-wrapper .dropdown-3 {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-right: -1px !important;
+  margin-top: -1px !important;
+}
+
+.div-wrapper .frame-21 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 0px 24px 0px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.div-wrapper .title-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  position: relative;
+}
+
+.div-wrapper .breadcrumbs-3 {
+  flex: 0 0 auto !important;
+}
+
+.div-wrapper .text-wrapper-15 {
+  align-self: stretch;
+  color: var(--alias-text-color-1);
+  font-family: var(--display-sm-bold-font-family);
+  font-size: var(--display-sm-bold-font-size);
+  font-style: var(--display-sm-bold-font-style);
+  font-weight: var(--display-sm-bold-font-weight);
+  letter-spacing: var(--display-sm-bold-letter-spacing);
+  line-height: var(--display-sm-bold-line-height);
+  position: relative;
+}
+
+.div-wrapper .map-legend-2 {
+  align-items: flex-start;
+  background-color: var(--alias-legends-legends-bg);
+  border: 1px solid;
+  border-color: var(--alias-legends-border-box);
+  border-radius: 8px;
+  box-shadow: 4px 8px 12px #00000080;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 16px;
+  position: relative;
+}
+
+.div-wrapper .sites-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.div-wrapper .site-types-6 {
+  color: var(--ref-primary-blue300);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-wrapper .macro-5 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 0px 0px 0px 1px;
+  position: relative;
+}
+
+.div-wrapper .site-types-7 {
+  box-shadow: 0px 1px 2px #1018280f, 0px 1px 3px #1018281a;
+  height: 14px;
+  position: relative;
+  width: 14px;
+}
+
+.div-wrapper .macro-6 {
+  background-color: var(--ref-primary-blue500);
+  border: 1px solid;
+  border-color: var(--ref-primary-blue400);
+  border-radius: 1px;
+  height: 12px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 12px;
+}
+
+.div-wrapper .text-wrapper-16 {
+  color: var(--alias-legends-text);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-wrapper .small-cell-3 {
+  background-color: var(--ref-primary-blue500);
+  border: 1px solid;
+  border-color: var(--ref-primary-blue400);
+  border-radius: 1px;
+  height: 10px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  transform: rotate(45deg);
+  width: 10px;
+}
+
+.div-wrapper .med-cell-3 {
+  height: 14px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.div-wrapper .union-3 {
+  height: 12px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 12px;
+}
+
+.div-wrapper .site-types-8 {
+  box-shadow: 0px 1px 2px #1018280f, 0px 1px 3px #1018281a;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.div-wrapper .ellipse-7 {
+  background-color: var(--ref-primary-blue500);
+  border: 1px solid;
+  border-color: var(--ref-primary-blue400);
+  border-radius: 6px;
+  height: 12px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 12px;
+}
+
+.div-wrapper .frame-22 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 0px 0px 24px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.div-wrapper .widget-group-2 {
+  background-image: url(../../../static/img/background-4.svg) !important;
+  height: 60px !important;
+  left: -4px !important;
+  top: -4px !important;
+  width: 60px !important;
+}
+
+.div-wrapper .map-zoom-coordinates-3 {
+  left: 560px !important;
+  position: absolute !important;
+  top: 571px !important;
+}
+
+.div-wrapper .layers-filters-pane-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  box-shadow: -5px 5px 10px #00000066;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.div-wrapper .design-component-instance-node-4 {
+  align-self: stretch !important;
+  height: unset !important;
+}
+
+.div-wrapper .toolbar-3 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+}
+
+.div-wrapper .icon-instance-node-6 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.div-wrapper .header-4 {
+  left: 0 !important;
+  position: fixed !important;
+  top: 0 !important;
+}

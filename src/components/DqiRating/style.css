@@ -1,0 +1,180 @@
+.DQI-rating {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  height: 42px;
+  position: relative;
+}
+
+.DQI-rating .column-chart {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 32px;
+}
+
+.DQI-rating .rectangle {
+  align-self: stretch;
+  border-radius: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.DQI-rating .rectangle-2 {
+  align-self: stretch;
+  border-radius: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.DQI-rating .rectangle-3 {
+  align-self: stretch;
+  border-radius: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.DQI-rating .rectangle-4 {
+  align-self: stretch;
+  background-color: var(--ref-rose-rose500);
+  border-radius: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.DQI-rating .y-axis {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.DQI-rating .text-wrapper-2 {
+  color: var(--alias-DQI-widget-text);
+  font-family: "Inter", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.DQI-rating .text-wrapper-3 {
+  color: var(--alias-DQI-widget-text);
+  font-family: "Inter", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.DQI-rating .fair {
+  align-self: stretch;
+}
+
+.DQI-rating .good {
+  align-self: stretch;
+}
+
+.DQI-rating .poor {
+  align-self: stretch;
+}
+
+.DQI-rating .column-chart.fair .rectangle {
+  background-color: var(--alias-DQI-widget-graph);
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.good .rectangle {
+  background-color: var(--alias-DQI-widget-graph);
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.best .rectangle {
+  background-color: var(--ref-success-success400);
+  height: 7.5px;
+}
+
+.DQI-rating .column-chart.poor .rectangle {
+  background-color: var(--alias-DQI-widget-graph);
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.fair .rectangle-2 {
+  background-color: var(--alias-DQI-widget-graph);
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.good .rectangle-2 {
+  background-color: var(--ref-warning-warning300);
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.best .rectangle-2 {
+  background-color: var(--ref-warning-warning300);
+  height: 7.5px;
+}
+
+.DQI-rating .column-chart.poor .rectangle-2 {
+  background-color: var(--alias-DQI-widget-graph);
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.fair .rectangle-3 {
+  background-color: var(--ref-error-orange400);
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.good .rectangle-3 {
+  background-color: var(--ref-error-orange400);
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.best .rectangle-3 {
+  background-color: var(--ref-error-orange400);
+  height: 7.5px;
+}
+
+.DQI-rating .column-chart.poor .rectangle-3 {
+  background-color: var(--alias-DQI-widget-graph);
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.fair .rectangle-4 {
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.good .rectangle-4 {
+  flex: 1;
+  flex-grow: 1;
+}
+
+.DQI-rating .column-chart.best .rectangle-4 {
+  height: 7.5px;
+}
+
+.DQI-rating .column-chart.poor .rectangle-4 {
+  flex: 1;
+  flex-grow: 1;
+}

@@ -1,0 +1,36 @@
+.toolbar {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: var(--alias-toolbar-action-gap);
+  padding: var(--alias-toolbar-padding);
+  position: relative;
+}
+
+.toolbar .toolbar-icon-2 {
+  align-items: flex-start;
+  background-color: var(--alias-toolbar-arrow-bg);
+  border-radius: 100px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 4px;
+  position: relative;
+}
+
+.toolbar .icon-instance-node-2 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.toolbar .toolbar-icon-instance {
+  flex: 0 0 auto !important;
+}
+
+.toolbar.active-3-false {
+  background-color: var(--alias-toolbar-inactive-toolbar-bg);
+}
+
+.toolbar.active-3-true {
+  background-color: var(--alias-toolbar-toolbar-bg);
+}

@@ -1,0 +1,158 @@
+.table {
+  align-items: flex-start;
+  background-color: var(--alias-table-widget-bg);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  width: 450px;
+}
+
+.table .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.table .name {
+  color: var(--alias-table-widget-title);
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 293px;
+}
+
+.table .name-2 {
+  align-self: stretch;
+  color: var(--alias-table-widget-sub-title);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.table .name-3 {
+  align-self: stretch;
+  color: var(--alias-table-widget-title);
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: relative;
+}
+
+.table .input {
+  align-self: stretch;
+  background: transparent;
+  border: none;
+  color: var(--alias-table-widget-sub-title);
+  font-family: var(--text-xs-regular-font-family);
+  font-size: var(--text-xs-regular-font-size);
+  font-style: var(--text-xs-regular-font-style);
+  font-weight: var(--text-xs-regular-font-weight);
+  letter-spacing: var(--text-xs-regular-letter-spacing);
+  line-height: var(--text-xs-regular-line-height);
+  padding: 0;
+  position: relative;
+}
+
+.table .row {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.table .number-2 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.table .name-4 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.table .indicator {
+  background-color: var(--ref-success-success400);
+  border-radius: 4px;
+  height: 8px;
+  position: relative;
+  width: 8px;
+}
+
+.table .name-5 {
+  color: var(--alias-table-widget-title);
+  flex: 1;
+  font-family: var(--text-xs-medium-font-family);
+  font-size: var(--text-xs-medium-font-size);
+  font-style: var(--text-xs-medium-font-style);
+  font-weight: var(--text-xs-medium-font-weight);
+  letter-spacing: var(--text-xs-medium-letter-spacing);
+  line-height: var(--text-xs-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.table .amount {
+  color: var(--alias-table-widget-text);
+  font-family: var(--text-xs-medium-font-family);
+  font-size: var(--text-xs-medium-font-size);
+  font-style: var(--text-xs-medium-font-style);
+  font-weight: var(--text-xs-medium-font-weight);
+  letter-spacing: var(--text-xs-medium-letter-spacing);
+  line-height: var(--text-xs-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.table .percent {
+  color: var(--ref-success-success400);
+  font-family: var(--text-xs-semibold-font-family);
+  font-size: var(--text-xs-semibold-font-size);
+  font-style: var(--text-xs-semibold-font-style);
+  font-weight: var(--text-xs-semibold-font-weight);
+  letter-spacing: var(--text-xs-semibold-letter-spacing);
+  line-height: var(--text-xs-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: 34px;
+}
+
+.table .indicator-2 {
+  background-color: var(--ref-success-success400);
+  border-radius: 3.8px/4px;
+  height: 8px;
+  position: relative;
+  width: 7.6px;
+}

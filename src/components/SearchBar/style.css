@@ -1,0 +1,87 @@
+.search-bar {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: flex;
+  height: var(--alias-search-height);
+  overflow: hidden;
+  position: relative;
+  width: 345px;
+}
+
+.search-bar .div {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--alias-search-search-bar-bg);
+  border: 1px solid;
+  border-color: var(--alias-search-search-bar-border);
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: var(--alias-search-search-bar-main-gap);
+  padding: 0px var(--alias-search-search-bar-right-left-padding) 0px var(--alias-search-search-bar-right-left-padding);
+  position: relative;
+}
+
+.search-bar .instance-node {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.search-bar .tampa-FL {
+  flex: 1;
+  font-family: var(--text-sm-regular-font-family);
+  font-size: var(--text-sm-regular-font-size);
+  font-style: var(--text-sm-regular-font-style);
+  font-weight: var(--text-sm-regular-font-weight);
+  letter-spacing: var(--text-sm-regular-letter-spacing);
+  line-height: var(--text-sm-regular-line-height);
+  position: relative;
+}
+
+.search-bar .selector {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--alias-search-selector-bg);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--alias-search-selector-border);
+  border-radius: 0px 8px 8px 0px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 0px 12px;
+  position: relative;
+}
+
+.search-bar .text-wrapper {
+  color: var(--alias-search-selector-text);
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.search-bar .search-button-true {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.search-bar .search-button-false {
+  border-radius: 8px;
+}
+
+.search-bar .default {
+  color: var(--alias-search-default-text);
+}
+
+.search-bar .filled {
+  color: var(--alias-search-filled-text);
+}

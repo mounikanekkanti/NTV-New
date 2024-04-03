@@ -1,0 +1,184 @@
+.utilization-tag {
+  align-items: center;
+  background-color: var(--alias-utilization-tag-utilization-bg);
+  border-radius: 4px;
+  display: flex;
+  height: 26px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 16px;
+  position: relative;
+  width: 74px;
+}
+
+.utilization-tag .element-2 {
+  color: var(--alias-text-color-1);
+  font-family: var(--text-xs-semibold-font-family);
+  font-size: var(--text-xs-semibold-font-size);
+  font-style: var(--text-xs-semibold-font-style);
+  font-weight: var(--text-xs-semibold-font-weight);
+  letter-spacing: var(--text-xs-semibold-letter-spacing);
+  line-height: var(--text-xs-semibold-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.utilization-tag.color-warning-3 {
+  border-color: var(--alias-utilization-tag-warning3);
+}
+
+.utilization-tag.color-critical {
+  border-color: var(--alias-utilization-tag-critical);
+}
+
+.utilization-tag.color-success-2 {
+  border-color: var(--alias-utilization-tag-success2);
+}
+
+.utilization-tag.color-error-2 {
+  border-color: var(--alias-utilization-tag-error2);
+}
+
+.utilization-tag.color-warning-1 {
+  border-color: var(--alias-utilization-tag-warning1);
+}
+
+.utilization-tag.color-blue-1 {
+  border-color: var(--alias-utilization-tag-blue1);
+}
+
+.utilization-tag.color-blue-2 {
+  border-color: var(--alias-utilization-tag-blue2);
+}
+
+.utilization-tag.color-error-1 {
+  border-color: var(--alias-utilization-tag-error1);
+}
+
+.utilization-tag.color-warning-2 {
+  border-color: var(--alias-utilization-tag-warning2);
+}
+
+.utilization-tag.color-default {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: var(--alias-utilization-tag-default-border);
+}
+
+.utilization-tag.color-success-1 {
+  border-color: var(--alias-utilization-tag-success1);
+}
+
+.utilization-tag.color-warning-4 {
+  border-color: var(--alias-utilization-tag-warning4);
+}
+
+.utilization-tag.color-success-2.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-error-2.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-blue-2.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-warning-2.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-warning-1.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-blue-1.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-success-1.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-warning-3.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-warning-4.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-error-1.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-critical.active-0-true {
+  border: 2px solid;
+}
+
+.utilization-tag.color-error-2 .element-2 {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.utilization-tag.color-default .element-2 {
+  margin-bottom: -3px;
+  margin-top: -5px;
+}
+
+.utilization-tag.color-success-2.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-error-2.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-blue-2.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-warning-2.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-warning-1.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-blue-1.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-success-1.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-warning-3.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-warning-4.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-error-1.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
+
+.utilization-tag.color-critical.active-0-true .element-2 {
+  margin-bottom: -2px;
+  margin-top: -6px;
+}
