@@ -18,25 +18,25 @@ export const WidgetGroup = ({
 }) => {
   return (
     <div className={`widget-group ${className}`}>
-      <ColumnWidget
+      {/* <ColumnWidget
         barChart={columnWidgetBarChart}
         className="column-widget-instance"
         contentClassName="column-widget-2"
         size="compact"
-      />
+      /> */}
       <SmallWidgetDonut
         DQIRatingRating="good"
         className="design-component-instance-node-2"
         text="Data Quality Index"
         type="DQI"
       />
-      <SmallWidgetDonut
+      {/* <SmallWidgetDonut
         className="design-component-instance-node-2"
         pieChartOverlapGroupClassName={smallWidgetDonutPieChartOverlapGroupClassName}
         text1="Reconciled"
         text2="Overall Summary"
         type="donut"
-      />
+      /> */}
       <Table
         className="design-component-instance-node-2"
         nameClassName="table-instance"
