@@ -1797,6 +1797,7 @@ You can apply the theme on any DOM node, not just the `body`
   --color-styles-gray-300: rgba(208, 213, 221, 1);
   --color-styles-gray-400: rgba(152, 162, 179, 1);
   --color-styles-gray-900: rgba(16, 24, 40, 1);
+  --background: linear-gradient(180deg, #1D2939 12.41%, #3E1C96 100%);
 }
 
 
@@ -2444,4 +2445,5 @@ You can apply the theme on any DOM node, not just the `body`
   --color-styles-gray-300: rgba(208, 213, 221, 1);
   --color-styles-gray-400: rgba(152, 162, 179, 1);
   --color-styles-gray-900: rgba(16, 24, 40, 1);
+  --background:linear-gradient(180deg, #F7F4FF 12.41%, #9C7EEB 121.76%);;
 }

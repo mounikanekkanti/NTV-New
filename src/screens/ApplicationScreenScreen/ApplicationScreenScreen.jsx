@@ -21,6 +21,7 @@ export const ApplicationScreenScreen = () => {
   const [subNavVisible, setSubNavVisible] = useState(false);
   const [filterPanelVisible, setFilterPanelVisible] = useState(false);
   const [aliasMode, setAliasMode] = useState("dark");
+  const [backgroundImage, setBackgroundImage] = useState('url(regional-map-1.228fcfb6.png)');
 
   const handleSunIconClick = () => {
     console.log(aliasMode);
@@ -30,6 +31,7 @@ export const ApplicationScreenScreen = () => {
 
   const updateAliasMode = (mode) => {
     document.body.setAttribute("data-alias-mode", mode);
+    setBackgroundImage(mode === 'dark' ? 'url(regional-map-1.228fcfb6.png)' : 'url(regional-map2.58b179f7.png)');
   };
 
   const handleToolbarLayersClick = () => {
@@ -46,7 +48,7 @@ export const ApplicationScreenScreen = () => {
     <div className="application-screen-screen">
       <div className="application-screen-2">
         <div className="overlap-3">
-          <div className="regional-map-2" />
+          <div className="regional-map-2" style={{ backgroundImage: backgroundImage }} />
           <div className="frame-9">
             <div className="frame-10">
               <div className="frame-11">
@@ -170,11 +172,11 @@ export const ApplicationScreenScreen = () => {
               <Toolbar onSunIconClick={handleSunIconClick}
                 active
                 className="toolbar-2"
-                override={<DeviceConnectivity className="icon-instance-node-5" />}
-                toolbarIconIcon={<LayersThree1 onClick={handleToolbarLayersClick} className="icon-instance-node-5" />}
-                toolbarIconIcon1={<MarkerPin63 className="icon-instance-node-5" />}
-                toolbarIconIcon2={<Globe4 className="icon-instance-node-5" />}
-                toolbarIconIcon3={<Sun className="icon-instance-node-5" />}
+                override={<DeviceConnectivity className="icon-instance-node-5" color="var(--alias-icon-primary)" />}
+                toolbarIconIcon={<LayersThree1 onClick={handleToolbarLayersClick} className="icon-instance-node-5" color="var(--alias-icon-primary)" />}
+                toolbarIconIcon1={<MarkerPin63 className="icon-instance-node-5" color="var(--alias-icon-primary)" />}
+                toolbarIconIcon2={<Globe4 className="icon-instance-node-5" color="var(--alias-icon-primary)" />}
+                toolbarIconIcon3={<Sun className="icon-instance-node-5" color="var(--alias-icon-primary)" />}
               />
             </div>
           </div>

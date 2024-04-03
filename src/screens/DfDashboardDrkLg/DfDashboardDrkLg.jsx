@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState} from "react";
 import { Breadcrumbs } from "../../components/Breadcrumbs";
 import { Dropdown } from "../../components/Dropdown";
 import { Header } from "../../components/Header";
@@ -18,6 +18,22 @@ import { Sun } from "../../icons/Sun";
 import "./style.css";
 
 export const DfDashboardDrkLg = () => {
+
+  const [aliasMode, setAliasMode] = useState("dark");
+
+  const [backgroundImage, setBackgroundImage] = useState('url(geo-map.0cc7013f.png)');
+
+  const handleSunIconClick = () => {
+    console.log(aliasMode);
+    setAliasMode(aliasMode === "dark" ? "light" : "dark");
+    updateAliasMode(aliasMode === "dark" ? "light" : "dark");
+  };
+
+  const updateAliasMode = (mode) => {
+    document.body.setAttribute("data-alias-mode", mode);
+    setBackgroundImage(mode === 'dark' ? 'url(geo-map.0cc7013f.png)' : 'url(geo-map2.7dcae7b4.png)');
+  };
+
   const handleClick = () => {
     window.location.href = '/2';
   };
@@ -72,7 +88,7 @@ export const DfDashboardDrkLg = () => {
                 </div>
               </div>
               <div className="frame-41">
-                <div className="geo-map-3">
+                <div className="geo-map-3" style={{ backgroundImage: backgroundImage }}>
                   <MapZoomCoordinates className="map-zoom-coordinates-6" minusColor="#98A2B3" plusColor="#98A2B3" />
                   <div className="clusters-3">
                     <div className="cluster-59">
@@ -688,15 +704,15 @@ export const DfDashboardDrkLg = () => {
                 </div>
               </div>
             </div>
-            <Toolbar
+            <Toolbar onSunIconClick={handleSunIconClick}
               active={false}
               arrowLeftColor="white"
               className="toolbar-6"
-              override={<DeviceConnectivity className="icon-instance-node-9" color="white" />}
-              toolbarIconIcon={<LayersThree1 className="icon-instance-node-9" color="white" />}
-              toolbarIconIcon1={<MarkerPin63 className="icon-instance-node-9" color="white" />}
-              toolbarIconIcon2={<Globe4 className="icon-instance-node-9" color="white" />}
-              toolbarIconIcon3={<Sun className="icon-instance-node-9" color="white" />}
+              override={<DeviceConnectivity className="icon-instance-node-9" color="var(--alias-icon-primary)" />}
+              toolbarIconIcon={<LayersThree1 className="icon-instance-node-9" color="var(--alias-icon-primary)" />}
+              toolbarIconIcon1={<MarkerPin63 className="icon-instance-node-9" color="var(--alias-icon-primary)" />}
+              toolbarIconIcon2={<Globe4 className="icon-instance-node-9" color="var(--alias-icon-primary)" />}
+              toolbarIconIcon3={<Sun className="icon-instance-node-9" color="var(--alias-icon-primary)" />}
             />
           </div>
         </div>

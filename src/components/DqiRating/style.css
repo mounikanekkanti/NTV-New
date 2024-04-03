@@ -60,8 +60,6 @@
   font-size: 9px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 18px;
-  margin-top: -1px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -73,7 +71,6 @@
   font-size: 9px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 18px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -144,7 +141,7 @@
 }
 
 .DQI-rating .column-chart.good .rectangle-3 {
-  background-color: var(--ref-error-orange400);
+  background-color: var(--ref-warning-warning300);
   flex: 1;
   flex-grow: 1;
 }
@@ -168,6 +165,7 @@
 .DQI-rating .column-chart.good .rectangle-4 {
   flex: 1;
   flex-grow: 1;
+  background-color: var(--ref-warning-warning300);
 }
 
 .DQI-rating .column-chart.best .rectangle-4 {

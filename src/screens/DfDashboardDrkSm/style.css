@@ -1643,7 +1643,7 @@
 }
 
 .df-dashboard-drk-sm .rectangle-16 {
-  background-color: var(--collection-1-neutral-gray500-duplicate);
+  background-color: var(--gray-500);
   height: 2px;
   position: relative;
   width: 18px;
@@ -1860,7 +1860,7 @@
 }
 
 .df-dashboard-drk-sm .ellipse-14 {
-  background-color: var(--ref-success-success400-duplicate);
+  background-color: var(--ref-success-success400);
   border-radius: 6px;
   height: 12px;
   position: relative;
@@ -1868,7 +1868,7 @@
 }
 
 .df-dashboard-drk-sm .ellipse-15 {
-  background-color: var(--ref-warning-warning300-duplicate);
+  background-color: var(--ref-warning-warning300);
   border-radius: 6px;
   height: 12px;
   position: relative;
@@ -1983,7 +1983,7 @@
 
 .df-dashboard-drk-sm .rectangle-19 {
   align-self: stretch;
-  background-color: var(--ref-success-success400-duplicate);
+  background-color: var(--ref-success-success400);
   border-radius: 100px;
   height: 8.75px;
   position: relative;
@@ -1992,7 +1992,7 @@
 
 .df-dashboard-drk-sm .rectangle-20 {
   align-self: stretch;
-  background-color: var(--ref-warning-warning300-duplicate);
+  background-color: var(--ref-warning-warning300);
   border-radius: 100px;
   height: 8.75px;
   position: relative;
@@ -2001,7 +2001,7 @@
 
 .df-dashboard-drk-sm .rectangle-21 {
   align-self: stretch;
-  background-color: var(--ref-warning-warning500-duplicate);
+  background-color: var(--ref-warning-warning500);
   border-radius: 100px;
   height: 8.75px;
   position: relative;
@@ -2061,7 +2061,7 @@
 }
 
 .df-dashboard-drk-sm .ellipse-17 {
-  background-color: var(--ref-warning-warning500-duplicate);
+  background-color: var(--ref-warning-warning500);
   border-radius: 6px;
   height: 12px;
   position: relative;

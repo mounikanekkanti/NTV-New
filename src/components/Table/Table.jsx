@@ -40,7 +40,6 @@ export const Table = ({
       <div className="row">
         <div className="number-2">
           <div className="name-4">
-            <div className="indicator" />
             <div className="name-5">{text2}</div>
           </div>
           <div className="amount">{text3}</div>
@@ -50,7 +49,6 @@ export const Table = ({
       <div className="row">
         <div className="number-2">
           <div className="name-4">
-            <div className="indicator" />
             <div className="name-5">{text4}</div>
           </div>
           <div className="amount">{text3}</div>
@@ -60,7 +58,6 @@ export const Table = ({
       <div className="row">
         <div className="number-2">
           <div className="name-4">
-            <div className="indicator" />
             <div className="name-5">{text5}</div>
           </div>
           <div className="amount">{text3}</div>
@@ -70,7 +67,6 @@ export const Table = ({
       <div className="row">
         <div className="number-2">
           <div className="name-4">
-            <div className="indicator" />
             <div className="name-5">{text6}</div>
           </div>
           <div className="amount">{text3}</div>
@@ -80,7 +76,6 @@ export const Table = ({
       <div className="row">
         <div className="number-2">
           <div className="name-4">
-            <div className="indicator-2" />
             <div className="name-5">{text7}</div>
           </div>
           <div className="amount">{text3}</div>

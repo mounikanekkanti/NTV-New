@@ -1,5 +1,5 @@
 .df-dashboard-drk-lg {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: var(--background);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,7 +8,7 @@
 
 .df-dashboard-drk-lg .div-13 {
   background: var(--alias-dashboard-gradient);
-  background-color: rgba(255, 255, 255, 1);
+  background-color: var(--background);
   height: 1080px;
   position: relative;
   width: 100%;
@@ -36,6 +36,7 @@
   position: absolute;
   top: 0;
   width: 100%;
+  background: var(--background);
 }
 
 .df-dashboard-drk-lg .frame-40 {
@@ -120,7 +121,7 @@
 }
 
 .df-dashboard-drk-lg .geo-map-3 {
-  background-image: url(../../../static/img/geo-map.png);
+  /* background-image: url(../../../static/img/geo-map.png); */
   background-position: 50% 50%;
   background-size: cover;
   border-radius: 8px;
@@ -1315,7 +1316,6 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  height: 488px;
   padding: 16px 24px;
   position: relative;
   width: 100%;
@@ -1612,7 +1612,7 @@
 }
 
 .df-dashboard-drk-lg .rectangle-25 {
-  background-color: var(--collection-1-neutral-gray500-duplicate);
+  background-color: var(--gray-500);
   height: 2px;
   position: relative;
   width: 18px;
@@ -1831,7 +1831,7 @@
 }
 
 .df-dashboard-drk-lg .ellipse-19 {
-  background-color: var(--ref-success-success400-duplicate);
+  background-color: var(--ref-success-success400);
   border-radius: 6px;
   height: 12px;
   position: relative;
@@ -1839,7 +1839,7 @@
 }
 
 .df-dashboard-drk-lg .ellipse-20 {
-  background-color: var(--ref-warning-warning300-duplicate);
+  background-color: var(--ref-warning-warning300);
   border-radius: 6px;
   height: 12px;
   position: relative;
@@ -1952,7 +1952,7 @@
 
 .df-dashboard-drk-lg .rectangle-28 {
   align-self: stretch;
-  background-color: var(--ref-success-success400-duplicate);
+  background-color: var(--ref-success-success400);
   border-radius: 100px;
   height: 8.75px;
   position: relative;
@@ -1961,7 +1961,7 @@
 
 .df-dashboard-drk-lg .rectangle-29 {
   align-self: stretch;
-  background-color: var(--ref-warning-warning300-duplicate);
+  background-color: var(--ref-warning-warning300);
   border-radius: 100px;
   height: 8.75px;
   position: relative;
@@ -1970,7 +1970,7 @@
 
 .df-dashboard-drk-lg .rectangle-30 {
   align-self: stretch;
-  background-color: var(--ref-warning-warning500-duplicate);
+  background-color: var(--ref-warning-warning500);
   border-radius: 100px;
   height: 8.75px;
   position: relative;
@@ -2030,7 +2030,7 @@
 }
 
 .df-dashboard-drk-lg .ellipse-22 {
-  background-color: var(--ref-warning-warning500-duplicate);
+  background-color: var(--ref-warning-warning500);
   border-radius: 6px;
   height: 12px;
   position: relative;

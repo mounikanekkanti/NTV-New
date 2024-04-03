@@ -1611,7 +1611,7 @@
 }
 
 .df-dashboard-lgt-lg .rectangle-7 {
-  background-color: var(--collection-1-neutral-gray500-duplicate);
+  background-color: var(--gray-500);
   height: 2px;
   position: relative;
   width: 18px;
@@ -1830,7 +1830,7 @@
 }
 
 .df-dashboard-lgt-lg .ellipse-9 {
-  background-color: var(--ref-success-success400-duplicate);
+  background-color: var(--ref-success-success400);
   border-radius: 6px;
   height: 12px;
   position: relative;
@@ -1838,7 +1838,7 @@
 }
 
 .df-dashboard-lgt-lg .ellipse-10 {
-  background-color: var(--ref-warning-warning300-duplicate);
+  background-color: var(--ref-warning-warning300);
   border-radius: 6px;
   height: 12px;
   position: relative;
@@ -1951,7 +1951,7 @@
 
 .df-dashboard-lgt-lg .rectangle-10 {
   align-self: stretch;
-  background-color: var(--ref-success-success400-duplicate);
+  background-color: var(--ref-success-success400);
   border-radius: 100px;
   height: 8.75px;
   position: relative;
@@ -1960,7 +1960,7 @@
 
 .df-dashboard-lgt-lg .rectangle-11 {
   align-self: stretch;
-  background-color: var(--ref-warning-warning300-duplicate);
+  background-color: var(--ref-warning-warning300);
   border-radius: 100px;
   height: 8.75px;
   position: relative;
@@ -1969,7 +1969,7 @@
 
 .df-dashboard-lgt-lg .rectangle-12 {
   align-self: stretch;
-  background-color: var(--ref-warning-warning500-duplicate);
+  background-color: var(--ref-warning-warning500);
   border-radius: 100px;
   height: 8.75px;
   position: relative;
@@ -2029,7 +2029,7 @@
 }
 
 .df-dashboard-lgt-lg .ellipse-12 {
-  background-color: var(--ref-warning-warning500-duplicate);
+  background-color: var(--ref-warning-warning500);
   border-radius: 6px;
   height: 12px;
   position: relative;
